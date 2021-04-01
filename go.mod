@@ -1,5 +1,5 @@
 module gopkg.in/k8snetworkplumbingwg/multus-cni.v3
-
+replace github.com/k8snetworkplumbingwg/network-attachment-definition-client => /Volumes/Case-Sensitive/repos/network-attachment-definition-client
 go 1.12
 
 require (
