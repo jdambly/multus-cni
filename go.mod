@@ -1,6 +1,8 @@
 module gopkg.in/k8snetworkplumbingwg/multus-cni.v3
-replace github.com/k8snetworkplumbingwg/network-attachment-definition-client => /Volumes/Case-Sensitive/repos/network-attachment-definition-client
-go 1.12
+
+go 1.16
+
+replace github.com/k8snetworkplumbingwg/network-attachment-definition-client v1.1.1-0.20201119153432-9d213757d22d => github.com/jdambly/network-attachment-definition-client v1.1.1-1
 
 require (
 	github.com/Microsoft/go-winio v0.4.14 // indirect

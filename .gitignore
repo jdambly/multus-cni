@@ -13,3 +13,6 @@ gopath/
 # Test outputs
 *.out
 *.test
+
+# ingnore local binary builds
+dist/
